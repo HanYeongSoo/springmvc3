@@ -24,7 +24,7 @@ public class LogTestController {
         log.error("error log={}", name);
 
         //로그를 사용하지 않아도 a+b 계산 로직이 먼저 실행됨, 이런 방식은 x
-        
+
         log.debug("String concat log=" + name);
         return "ok";
     }
