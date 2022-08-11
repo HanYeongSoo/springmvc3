@@ -101,4 +101,11 @@ public class RequestBodyJsonController {
         return data;
     }
 
+    /**
+     * @RequestBody 요청
+     * JSON 요청 HTTP 메시지 컨버터 객체
+
+     * @ResponseBody 응답
+     * 객체 HTTP 메시지 컨버터 JSON 응답
+     */
 }
